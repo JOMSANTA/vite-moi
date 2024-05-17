@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    
+
+
+}
+.fondo{
+    background-image: url(../img/logo\ buimon.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+   
+    
+    
+   
+    
+   
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    color: black;
+}
+input{
+    display:block;
+    margin-left: 10%;
+    opacity: 70%;
+    border-radius: 20px;
+    
+}
+.fecha{
+    width: 30%;
+    font-size: 150%;
+}
+.nombre{
+    width: 80%;
+    font-size: 130%;
+}
+.asunto{
+    border-radius: 20px;
+    opacity: 70%;
+    margin-left: 10%;
+    width: 80%;
+    height: 25rem;
+    resize: none;
+    font-size: 180%;
+}
+.enviar{
+    width: 20%;
+    font-size: 130%;
+    position: relative;
+    left: 50%;
+    
+    
+
+}
+.enviar:active{
+    background-color: #f92626;
+    
+}

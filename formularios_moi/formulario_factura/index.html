@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factura</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <div class="fondo">  
+    <form action="" id="facturar">
+    <div class="general">
+        <h1 class="factura">Factura</h1>
+        
+        <label for="fecha_factura">Fecha factura</label>
+        <input type="datetime-local" name="fecha_factura" id="fecha_factura" placeholder="fecha factura"><br>
+        <input type="number" name="id_factura" id="id_factura" placeholder="id factura"><br>
+        <input type="number" name="id_cliente" id="id_cliente" placeholder="id cliente"><br>
+        <input type="text" name="nombre_cliente" id="nombre_cliente" placeholder="Nombre cliente"><br>
+        <input type="number" name="cod_empleado" id="cod_empleado" placeholder="cod_empleado" ><br>
+        <input type="number" type="number" name="id_producto" id="id_producto" placeholder="id producto"><br>
+        <input type="number" name="sub_total" id="sub_total" placeholder="sub total"><br>
+        <input type="number" name="iva" id="iva" placeholder="iva"><br>
+        <input type="number" name="total" id="total" placeholder="total"><br>
+        <input type="reset" ><br>
+        <input type="button" value="Enviar" onclick="validarCamposFactura() ">
+        
+      </div>
+       </div> 
+<script src="./facturar.js"></script>
+</body>
+</form>
+</html>
